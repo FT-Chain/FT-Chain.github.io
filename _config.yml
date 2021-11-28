@@ -1,0 +1,27 @@
+title: FT-Chain
+description: FT-Chain advocates a combined private permissioned blockchain HyperLedger Fabric and Federated learning architecture to handle the data of different stakeholders in Food Supply Chains in a privacy-preserving manner.
+show_downloads: false
+copyright: FT Chain 
+
+baseurl:  # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
+url: # change this to the base hostname & protocol for your site
+
+
+google_analytics:
+
+# cayman-blog date format
+cayman-blog:
+  date_format: "%b %-d, %Y"
+
+theme: # leave it empty
+theme_url: https://github.com/lorepirri/cayman-blog
+theme_type: jekyll-theme-cayman
+
+
+
+
+
+target-blank:
+    rel: nofollow
+
+header_page_refs: ['about','partners','publications','contact']
