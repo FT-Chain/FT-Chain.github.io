@@ -25,8 +25,10 @@
     {% else %}
     {% assign page-title = site.title | escape %}
     {% endif %}
-    
-    <title>{{ page-title }}</title>
+
+    <img src="/images/FT-Chain_logo.svg" width="150" height="100" alt="{{ page.title | default: site.title }}" class="project-name" />
+
+    <!-- <title>{{ page-title }}</title> -->
     
     {% if site.plugins contains "jekyll-seo-tag" %}
     <!-- jekyll-seo-tag -->
@@ -40,7 +42,7 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | absolute_url }}">
     {% endif %}
     
-    <!-- <link rel="shortcut icon" href="{{ "/favicon.ico" | absolute_url }}"> -->
+    <link rel="shortcut icon" href="/images/favicon.ico">
     
     <meta name="robots" content="noarchive">
     
