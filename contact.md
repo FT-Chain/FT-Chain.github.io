@@ -6,5 +6,6 @@ ref: contact
 order: 1
 ---
 
-Contact person: 
+Contact persons: 
 - <u>Benedikt Gross:</u> benedikt.gross@fu-berlin.de
+- <u>Milenko Tosic:</u> milenko.tosic@vizlore.com 
