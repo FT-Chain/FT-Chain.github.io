@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Partners
-permalink: /parters.html
+permalink: /partners.html
 ref: partners
 order: 2
 ---
