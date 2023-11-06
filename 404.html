@@ -4,22 +4,48 @@ layout: default
 ---
 
 <style type="text/css" media="screen">
+  body {
+    background-color: #f9a825;
+    /* Funky background color */
+  }
+
   .container {
-    margin: 10px auto;
+    margin: 10% auto;
     max-width: 600px;
     text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
+
   h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
+    font-size: 6em;
+    /* Large font size */
+    margin: 0;
+    color: #e91e63;
+    /* Funky text color */
+  }
+
+  p {
+    font-size: 1.5em;
+    /* Larger text size */
+    margin: 20px 0;
+  }
+
+  .emoji {
+    font-size: 2em;
+    margin-top: 10px;
   }
 </style>
 
 <div class="container">
   <h1>404</h1>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <p><strong>Oops, you're in the wrong place!</strong></p>
+  <p>The requested page couldn't be found. Let's go back to the <a href="/">home page</a>.</p>
+
+  <div class="emoji">
+    😎🕺💃🚀
+  </div>
 </div>
